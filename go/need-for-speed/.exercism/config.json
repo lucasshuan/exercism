@@ -1,0 +1,25 @@
+{
+  "authors": [
+    "tehsphinx"
+  ],
+  "contributors": [
+    "oanaOM",
+    "eklatzer",
+    "andrerfcsantos"
+  ],
+  "files": {
+    "solution": [
+      "need_for_speed.go"
+    ],
+    "test": [
+      "need_for_speed_test.go"
+    ],
+    "exemplar": [
+      ".meta/exemplar.go"
+    ]
+  },
+  "forked_from": [
+    "csharp/need-for-speed"
+  ],
+  "blurb": "Learn about structs by racing remote controlled cars."
+}
