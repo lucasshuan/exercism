@@ -1,0 +1,18 @@
+{
+  "authors": [
+    "norbs57"
+  ],
+  "files": {
+    "solution": [
+      "animal_magic.go"
+    ],
+    "test": [
+      "animal_magic_test.go"
+    ],
+    "exemplar": [
+      ".meta/exemplar.go"
+    ]
+  },
+  "icon": "roll-the-die",
+  "blurb": "Learn how to work with pseudo-random numbers"
+}
