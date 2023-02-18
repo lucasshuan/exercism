@@ -1,0 +1,22 @@
+{
+  "authors": [
+    "andres-zartab"
+  ],
+  "contributors": [
+    "tehsphinx",
+    "andrerfcsantos",
+    "norbs57"
+  ],
+  "files": {
+    "solution": [
+      "blackjack.go"
+    ],
+    "test": [
+      "blackjack_test.go"
+    ],
+    "exemplar": [
+      ".meta/exemplar.go"
+    ]
+  },
+  "blurb": "Learn about conditionals by playing Blackjack."
+}
