@@ -1,0 +1,24 @@
+{
+  "authors": [
+    "brugnara",
+    "jmrunkle"
+  ],
+  "contributors": [
+    "junedev"
+  ],
+  "files": {
+    "solution": [
+      "the_farm.go"
+    ],
+    "test": [
+      "the_farm_test.go"
+    ],
+    "exemplar": [
+      ".meta/exemplar.go"
+    ],
+    "editor": [
+      "types.go"
+    ]
+  },
+  "blurb": "Learn about errors and interfaces while feeding cows on the farm."
+}
