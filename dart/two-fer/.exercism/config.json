@@ -1,0 +1,22 @@
+{
+  "authors": [
+    "amscotti"
+  ],
+  "contributors": [
+    "Stargator",
+    "kytrinyx"
+  ],
+  "files": {
+    "solution": [
+      "lib/two_fer.dart"
+    ],
+    "test": [
+      "test/two_fer_test.dart"
+    ],
+    "example": [
+      ".meta/lib/example.dart"
+    ]
+  },
+  "blurb": "Create a sentence of the form \"One for X, one for me.\".",
+  "source_url": "https://github.com/exercism/problem-specifications/issues/757"
+}
