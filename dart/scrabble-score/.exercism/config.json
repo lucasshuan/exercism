@@ -1,0 +1,23 @@
+{
+  "authors": [
+    "jvarness"
+  ],
+  "contributors": [
+    "Stargator",
+    "kytrinyx"
+  ],
+  "files": {
+    "solution": [
+      "lib/scrabble_score.dart"
+    ],
+    "test": [
+      "test/scrabble_score_test.dart"
+    ],
+    "example": [
+      ".meta/lib/example.dart"
+    ]
+  },
+  "blurb": "Given a word, compute the Scrabble score for that word.",
+  "source": "Inspired by the Extreme Startup game",
+  "source_url": "https://github.com/rchatley/extreme_startup"
+}
