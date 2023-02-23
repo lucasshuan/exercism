@@ -3,53 +3,48 @@ import 'dart:core';
 class Forth {
   List<int> stack = [];
 
-  Map<String, String> variables = {};
+  Map<String, String> definitions = {};
+
+  String newDefinition = "";
 
   void evaluate(String line) {
-    try {
-      final list = line.split(' ');
-      int savingVar = 0;
-      String varBeingSaved = "";
-      for (var t in list) {
-        final text = t.toUpperCase();
-        if ((text == ':') | (text == ';')) {
-          savingVar = text == ':' ? ++savingVar : 0;
-          continue;
-        }
-        if (savingVar == 1) {
-          if (!text.startsWith(RegExp(r'[A-Z]')))
-            throw Exception('Invalid definition');
-          varBeingSaved = text;
-          savingVar++;
-          continue;
-        }
-        if (savingVar > 1) {
-          _declare_var(varBeingSaved, text);
-          continue;
-        }
-        _operate(text);
+    final list = line.split(' ');
+    int savingDef = 0;
+    String defBeingSaved = "";
+    for (var t in list) {
+      final text = t.toUpperCase();
+      if (text == ':') {
+        savingDef++;
+        continue;
       }
-    } catch (e) {
-      throw e;
+      if (text == ';') {
+        savingDef = 0;
+        definitions[defBeingSaved] = newDefinition;
+        defBeingSaved = "";
+        newDefinition = "";
+        continue;
+      }
+      if (savingDef == 1) {
+        if (int.tryParse(text) != null) throw Exception('Invalid definition');
+        defBeingSaved = text;
+        savingDef++;
+        continue;
+      }
+      if (savingDef > 1) {
+        _makeDefinition(defBeingSaved, text);
+        continue;
+      }
+      _operate(text);
     }
   }
 
-  void _declare_var(String key, String t) {
-    final value = t + " ";
-    final predef = variables[key];
-    if (variables.containsKey(value)) {
-      final existingKey = variables[value] ?? value;
-      variables[key] = predef == null ? value : predef + existingKey;
+  void _makeDefinition(String key, String value) {
+    if (newDefinition != "") newDefinition += " ";
+    if (definitions[value] != null) {
+      newDefinition += (definitions[value] ?? "");
       return;
     }
-    variables[key] = predef == null ? value : predef + value;
-  }
-
-  void _read_var(String t) {
-    final knownVars = variables[t]?.toString().split(" ") ?? <String>[];
-    for (var v in knownVars) {
-      _operate(v);
-    }
+    newDefinition += value;
   }
 
   void _operate(String t) {
@@ -58,8 +53,11 @@ class Forth {
       stack.add(int.parse(t));
       return;
     }
-    if (variables.containsKey(t)) {
-      _read_var(t);
+    if (definitions[t] != null) {
+      final knownDefs = definitions[t]?.toString().split(" ") ?? <String>[];
+      for (var v in knownDefs) {
+        _operate(v);
+      }
       return;
     }
     switch (t) {
