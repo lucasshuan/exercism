@@ -2,9 +2,11 @@
 #define SPACE_AGE_H
 
 namespace space_age {
-  class space_age {
+  class space_age 
+  {
     private:
       long long int m_seconds;
+      
     public:
       explicit space_age(long long int seconds) : m_seconds(seconds) {};
       long long int seconds() const;
