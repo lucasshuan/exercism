@@ -1,0 +1,4 @@
+C:/Exercism/cpp/raindrops/build/CMakeFiles/raindrops.dir
+C:/Exercism/cpp/raindrops/build/CMakeFiles/test_raindrops.dir
+C:/Exercism/cpp/raindrops/build/CMakeFiles/edit_cache.dir
+C:/Exercism/cpp/raindrops/build/CMakeFiles/rebuild_cache.dir
