@@ -1,0 +1,23 @@
+{
+  "authors": [
+    "ErikSchierboom"
+  ],
+  "contributors": [
+    "yzAlvin"
+  ],
+  "files": {
+    "solution": [
+      "NeedForSpeed.cs"
+    ],
+    "test": [
+      "NeedForSpeedTests.cs"
+    ],
+    "exemplar": [
+      ".meta/Exemplar.cs"
+    ],
+    "invalidator": [
+      "NeedForSpeed.csproj"
+    ]
+  },
+  "blurb": "Learn about classes by creating cars."
+}
