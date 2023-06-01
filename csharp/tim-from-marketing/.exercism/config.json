@@ -1,0 +1,23 @@
+{
+  "authors": [
+    "maurelio1234"
+  ],
+  "contributors": [
+    "yzAlvin"
+  ],
+  "files": {
+    "solution": [
+      "TimFromMarketing.cs"
+    ],
+    "test": [
+      "TimFromMarketingTests.cs"
+    ],
+    "exemplar": [
+      ".meta/Exemplar.cs"
+    ],
+    "invalidator": [
+      "TimFromMarketing.csproj"
+    ]
+  },
+  "blurb": "Learn about nullables by printing name badges."
+}
