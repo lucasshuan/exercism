@@ -1,0 +1,21 @@
+{
+  "authors": [
+    "bemself"
+  ],
+  "contributors": [
+    "porkostomus",
+    "cstby"
+  ],
+  "files": {
+    "solution": [
+      "src/tracks_on_tracks_on_tracks.clj"
+    ],
+    "test": [
+      "test/tracks_on_tracks_on_tracks_test.clj"
+    ],
+    "exemplar": [
+      ".meta/exemplar.clj"
+    ]
+  },
+  "blurb": "Learn about lists by keeping track of the programming languages you want to learn"
+}
