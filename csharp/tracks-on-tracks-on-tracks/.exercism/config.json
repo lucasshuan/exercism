@@ -1,0 +1,28 @@
+{
+  "authors": [
+    "mikedamay"
+  ],
+  "contributors": [
+    "ErikSchierboom",
+    "yzAlvin",
+    "sanderploegsma"
+  ],
+  "files": {
+    "solution": [
+      "TracksOnTracksOnTracks.cs"
+    ],
+    "test": [
+      "TracksOnTracksOnTracksTests.cs"
+    ],
+    "exemplar": [
+      ".meta/Exemplar.cs"
+    ],
+    "invalidator": [
+      "TracksOnTracksOnTracks.csproj"
+    ]
+  },
+  "forked_from": [
+    "fsharp/tracks-on-tracks-on-tracks"
+  ],
+  "blurb": "Learn about lists by keeping track of programming languages you want to learn."
+}
