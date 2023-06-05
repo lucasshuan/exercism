@@ -6,8 +6,7 @@
   (cond (neg? balance) -3.213
         (< balance 1000M) 0.5
         (< balance 5000M) 1.621
-        :else 2.475)
-  )
+        :else 2.475))
 
 (defn annual-balance-update
   "Calculates the annual balance update, taking into account the interest rate"

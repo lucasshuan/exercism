@@ -1,0 +1,4 @@
+-m
+cognitect.test-runner
+-d
+test
