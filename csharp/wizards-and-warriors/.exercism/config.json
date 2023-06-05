@@ -1,0 +1,23 @@
+{
+  "authors": [
+    "ErikSchierboom"
+  ],
+  "contributors": [
+    "yzAlvin"
+  ],
+  "files": {
+    "solution": [
+      "WizardsAndWarriors.cs"
+    ],
+    "test": [
+      "WizardsAndWarriorsTests.cs"
+    ],
+    "exemplar": [
+      ".meta/Exemplar.cs"
+    ],
+    "invalidator": [
+      "WizardsAndWarriors.csproj"
+    ]
+  },
+  "blurb": "Learn about inheritance by creating an RPG."
+}
