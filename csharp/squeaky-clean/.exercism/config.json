@@ -1,0 +1,24 @@
+{
+  "authors": [
+    "mikedamay"
+  ],
+  "contributors": [
+    "ErikSchierboom",
+    "yzAlvin"
+  ],
+  "files": {
+    "solution": [
+      "SqueakyClean.cs"
+    ],
+    "test": [
+      "SqueakyCleanTests.cs"
+    ],
+    "exemplar": [
+      ".meta/Exemplar.cs"
+    ],
+    "invalidator": [
+      "SqueakyClean.csproj"
+    ]
+  },
+  "blurb": "Learn about characters and StringBuilder by cleaning strings."
+}
