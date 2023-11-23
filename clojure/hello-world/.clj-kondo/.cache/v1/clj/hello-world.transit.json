@@ -1,1 +1,0 @@
-["^ ","~$hello",["^ ","~:row",3,"~:col",1,"~:fixed-arities",["~#set",[0]],"~:name","^0","~:ns","~$hello-world","~:top-ns","^7","~:arities",["^ ","~i0",["^ ","~:ret","~:string","~:arglist-str","[]"]],"~:type","~:fn"],"~:filename","C:\\Exercism\\clojure\\hello-world\\src\\hello_world.clj"]
