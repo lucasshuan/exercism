@@ -1,4 +1,0 @@
-C:/Exercism/cpp/grains/build/CMakeFiles/grains.dir
-C:/Exercism/cpp/grains/build/CMakeFiles/test_grains.dir
-C:/Exercism/cpp/grains/build/CMakeFiles/edit_cache.dir
-C:/Exercism/cpp/grains/build/CMakeFiles/rebuild_cache.dir
