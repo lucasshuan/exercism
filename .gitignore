@@ -21,16 +21,16 @@ __pycache__/
 /CMakeSettings.json
 
 # Ignorar arquivos de configuração específicos da IDE
-.vscode/
-.idea/
-.project
-.classpath
+/.vscode/
+/.idea/
+/.project
+/.classpath
 *.sublime-workspace
 *.sublime-project
 
 # Ignorar arquivos de dependências e saída de compilação
-node_modules/
-bower_components/
+/node_modules/
+/bower_components/
 *.log
 
 # Ignorar arquivos de compilação específicos da linguagem
